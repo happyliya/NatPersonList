@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E96F36A425EBC56C001E2EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36A325EBC56C001E2EC8 /* AppDelegate.swift */; };
-		E96F36A625EBC56C001E2EC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36A525EBC56C001E2EC8 /* SceneDelegate.swift */; };
-		E96F36A825EBC56C001E2EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36A725EBC56C001E2EC8 /* ViewController.swift */; };
 		E96F36AB25EBC56C001E2EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96F36A925EBC56C001E2EC8 /* Main.storyboard */; };
 		E96F36AD25EBC56F001E2EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96F36AC25EBC56F001E2EC8 /* Assets.xcassets */; };
 		E96F36B025EBC56F001E2EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96F36AE25EBC56F001E2EC8 /* LaunchScreen.storyboard */; };
+		E96F36B925EBC6F0001E2EC8 /* PersonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36B825EBC6F0001E2EC8 /* PersonListTableViewController.swift */; };
+		E96F36BC25EBD418001E2EC8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36BB25EBD418001E2EC8 /* Person.swift */; };
+		E96F36BF25EBD520001E2EC8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36BE25EBD520001E2EC8 /* DataManager.swift */; };
+		E96F36C325EBD6D7001E2EC8 /* FullInfoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36C225EBD6D7001E2EC8 /* FullInfoListTableViewController.swift */; };
+		E96F36C625EBD734001E2EC8 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36C525EBD734001E2EC8 /* ContactDetailsViewController.swift */; };
+		E96F36CB25EBE46D001E2EC8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F36CA25EBE46D001E2EC8 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E96F36A025EBC56C001E2EC8 /* NatPersonList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatPersonList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96F36A325EBC56C001E2EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E96F36A525EBC56C001E2EC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E96F36A725EBC56C001E2EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E96F36AA25EBC56C001E2EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E96F36AC25EBC56F001E2EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E96F36AF25EBC56F001E2EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E96F36B125EBC56F001E2EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96F36B825EBC6F0001E2EC8 /* PersonListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTableViewController.swift; sourceTree = "<group>"; };
+		E96F36BB25EBD418001E2EC8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E96F36BE25EBD520001E2EC8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E96F36C225EBD6D7001E2EC8 /* FullInfoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInfoListTableViewController.swift; sourceTree = "<group>"; };
+		E96F36C525EBD734001E2EC8 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		E96F36CA25EBE46D001E2EC8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				E96F36A325EBC56C001E2EC8 /* AppDelegate.swift */,
-				E96F36A525EBC56C001E2EC8 /* SceneDelegate.swift */,
-				E96F36A725EBC56C001E2EC8 /* ViewController.swift */,
+				E96F36CA25EBE46D001E2EC8 /* TabBarViewController.swift */,
+				E96F36B825EBC6F0001E2EC8 /* PersonListTableViewController.swift */,
+				E96F36C225EBD6D7001E2EC8 /* FullInfoListTableViewController.swift */,
+				E96F36C525EBD734001E2EC8 /* ContactDetailsViewController.swift */,
 				E96F36A925EBC56C001E2EC8 /* Main.storyboard */,
+				E96F36BB25EBD418001E2EC8 /* Person.swift */,
+				E96F36BE25EBD520001E2EC8 /* DataManager.swift */,
 				E96F36AC25EBC56F001E2EC8 /* Assets.xcassets */,
 				E96F36AE25EBC56F001E2EC8 /* LaunchScreen.storyboard */,
 				E96F36B125EBC56F001E2EC8 /* Info.plist */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96F36A825EBC56C001E2EC8 /* ViewController.swift in Sources */,
+				E96F36CB25EBE46D001E2EC8 /* TabBarViewController.swift in Sources */,
 				E96F36A425EBC56C001E2EC8 /* AppDelegate.swift in Sources */,
-				E96F36A625EBC56C001E2EC8 /* SceneDelegate.swift in Sources */,
+				E96F36C625EBD734001E2EC8 /* ContactDetailsViewController.swift in Sources */,
+				E96F36BF25EBD520001E2EC8 /* DataManager.swift in Sources */,
+				E96F36C325EBD6D7001E2EC8 /* FullInfoListTableViewController.swift in Sources */,
+				E96F36B925EBC6F0001E2EC8 /* PersonListTableViewController.swift in Sources */,
+				E96F36BC25EBD418001E2EC8 /* Person.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
